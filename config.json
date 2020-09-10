@@ -1,0 +1,22 @@
+{
+  "token": "__DISCORD TOKEN__",
+  "api_key": "__READY RAIDER API__",
+  "warcraftLogs_api_key": "__WCL API KEY__",
+  "prefix": "__ANY PREFIX(!, %, $, &)__",
+  "raidAPI": "",
+  "guildAPI": "",
+  "discordAPI": "",
+  "lootAPI": "",
+  "signAPI": "",
+  "declineAPI": "",
+  "benchAPI": "ABOVE AND BELOW ARE READYRAIDER'S APIS",
+  "messageAPI": "",
+  "channelAPI": "",
+  "initAPI": "",
+  "wishlistAPI": "",
+  "wowheadAPI": "",
+  "inviteAPI": "",
+  "signupAPI": "",
+  "nexusHubAPI": "__NEXUS HUB API_KEY__",
+  "mod_cmds": " "
+}

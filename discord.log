@@ -1,0 +1,6 @@
+2020-09-10 15:24:01,634:INFO:discord.client: logging in using static token
+2020-09-10 15:24:01,760:DEBUG:discord.http: GET https://discordapp.com/api/v7/users/@me with None has returned 401
+2020-09-10 15:24:01,762:INFO:discord.client: Cleaning up tasks.
+2020-09-10 15:24:01,762:INFO:discord.client: Cleaning up after 1 tasks.
+2020-09-10 15:24:01,762:INFO:discord.client: All tasks finished cancelling.
+2020-09-10 15:24:01,762:INFO:discord.client: Closing the event loop.
