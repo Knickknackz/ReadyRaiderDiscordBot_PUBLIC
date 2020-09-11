@@ -1,3 +1,5 @@
+Last Update: 9/10/20
+
 ReadyRaider's Guild Management Discord Bot!
 ===========================================
 
