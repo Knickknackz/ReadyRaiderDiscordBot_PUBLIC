@@ -25,24 +25,27 @@ Some useful features:
 Command Table:
 --------------
 
-| Command | Description |
+| ReadyRaider Commands | Description |
 | --- | --- |
-|BASE COMMANDS| |
-|---| |
 | $set | Sets the bot up. You need to have an active ReadyRaider Account with Discord Linked! Requires server admin permissions. It should be your first command after inviting the bot. |
 | $loot [days=0] | Displays all loot from the day that was X days ago. default = 0 (today). |
 | $prio [item name] | Displays recommended class priority for an item (case sensative!) |
 | $wishlist [wow name] | Displays wishlist for target character (case sensative!) |
 | $upcoming | Updates and displays information about all raids in the upcoming week. |
 | $completed | Displays all raids from the last week and the confirmed attendance. |
-| $logs [character name] [server name] [server region] | Displays rankings for a character\
-Regions are in the format: US, EU, KR, TW, CN. |
-| $gear [character name] [server name] [server region] | Displays the gear worn by a character during their best logs. |
-| $guildlogs [guildName] [serverName] [serverRegion] | Displays recent logs From a Guild\
-If guilds are longer then one word, please use quotation marks: "Guild Name" |
 | $invite [email] [wowName] | Invites a user to join ReadyRaider. Auto-deletes the Post immidiately to hide the email address. |
 | $register [email] [wowName] [wowClass] | Register yourself for ReadyRaider. Auto-deletes the post immidiately to hide the email address. |
 | $howtouse | Text describing how to use the bot |
 | $whatsnew | Displays recent updates |
+
+| WarcraftLogs Commands | Description |
+| --- | --- |
+| $logs [character name] [server name (Defualts to Registered Server if Blank)]  | Displays rankings for a character. Regions are in the format: US, EU, KR, TW, CN. |
+| $gear [character name] [server name (Defualts to Registered Server if Blank)] | Displays the gear worn by a character during their best logs. |
+| $guildlogs [guildName (Defualts to Registered Guild if Blank)] [server name (Defualts to Registered Server if Blank)]  | Displays recent logs From a Guild. If guilds are longer then one word, please use quotation marks: "Guild Name" |
+
+| NexusHub Commands | Description |
+| --- | --- |
+
 
 Notes: [] parameters are required unless a default value is shown. If you want to give a parameter with spaces use quotation marks " "
