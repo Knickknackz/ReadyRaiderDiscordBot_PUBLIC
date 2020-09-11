@@ -1,5 +1,5 @@
-Introducing ReadyRaider's Guild Management Discord Bot!
-=======================================================
+ReadyRaider's Guild Management Discord Bot!
+===========================================
 
 How to Use the Bot:
 -------------------
@@ -27,9 +27,7 @@ Command Table:
 
 | Command | Description |
 | --- | --- |
-| $set | Sets the bot up.\
-You need to have an active ReadyRaider Account with Discord Linked!\
-Requires server admin permissions. It should be your first command after inviting the bot. |
+| $set | Sets the bot up. You need to have an active ReadyRaider Account with Discord Linked! Requires server admin permissions. It should be your first command after inviting the bot. |
 | $loot [days=0] | Displays all loot from the day that was X days ago. default = 0 (today). |
 | $prio [item name] | Displays recommended class priority for an item (case sensative!) |
 | $wishlist [wow name] | Displays wishlist for target character (case sensative!) |
