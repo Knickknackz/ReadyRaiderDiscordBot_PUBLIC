@@ -37,15 +37,20 @@ Command Table:
 | $register [email] [wowName] [wowClass] | Register yourself for ReadyRaider. Auto-deletes the post immidiately to hide the email address. |
 | $howtouse | Text describing how to use the bot |
 | $whatsnew | Displays recent updates |
+Notes: [] parameters are required unless a default value is shown. If you want to give a parameter with spaces use quotation marks " "
 
 | WarcraftLogs Commands | Description |
 | --- | --- |
-| $logs [character name] [server name (Defualts to Registered Server if Blank)]  | Displays rankings for a character. Regions are in the format: US, EU, KR, TW, CN. |
-| $gear [character name] [server name (Defualts to Registered Server if Blank)] | Displays the gear worn by a character during their best logs. |
-| $guildlogs [guildName (Defualts to Registered Guild if Blank)] [server name (Defualts to Registered Server if Blank)]  | Displays recent logs From a Guild. If guilds are longer then one word, please use quotation marks: "Guild Name" |
+| $logs [character name] [server name] | Displays rankings for a character. Regions are in the format: US, EU, KR, TW, CN.  |
+| $gear [character name] [server name] | Displays the gear worn by a character during their best logs. |
+| $guildlogs [guildName] [server name]  | Displays recent logs From a Guild. If guilds are longer then one word, please use quotation marks: "Guild Name" |
+Notes: "server name" and "guild name" variables will default to a servers registered values if left blank.
 
 | NexusHub Commands | Description |
 | --- | --- |
+| $craftingDeals | Displays items that are worth flipping by buying and crafting. |
+| $deals | Displays good deals currently on your servers auction house |
+| $item [item name] | Shows tooltips for an item |
+| $price [item name] | Shows historical and current auction house prices for an item. |
+Notes: All NexusHub Commands Default to the Server you have registered your linked guild on ReadyRaider
 
-
-Notes: [] parameters are required unless a default value is shown. If you want to give a parameter with spaces use quotation marks " "
