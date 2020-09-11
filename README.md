@@ -27,7 +27,8 @@ Command Table:
 
 | Command | Description |
 | --- | --- |
-|###BASE COMMANDS|
+|BASE COMMANDS|
+|-------------|
 | $set | Sets the bot up. You need to have an active ReadyRaider Account with Discord Linked! Requires server admin permissions. It should be your first command after inviting the bot. |
 | $loot [days=0] | Displays all loot from the day that was X days ago. default = 0 (today). |
 | $prio [item name] | Displays recommended class priority for an item (case sensative!) |
